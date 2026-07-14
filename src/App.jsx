@@ -4,6 +4,7 @@ import Footer from "./components/Footer.jsx";
 import WhatsAppFloat from "./components/WhatsAppFloat.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import CataloguePage from "./pages/CataloguePage.jsx";
+import ProductDetailPage from "./pages/ProductDetailPage.jsx";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -15,6 +16,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/catalogue" element={<CataloguePage />} />
+        <Route path="/catalogue/product/:sno" element={<ProductDetailPage />} />
       </Routes>
       <Footer minimal={onCatalogue} />
       <WhatsAppFloat
