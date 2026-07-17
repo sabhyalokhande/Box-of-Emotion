@@ -18,7 +18,7 @@ export default function ProductImage({ sno, name, strokeWidth = 1.3 }) {
   return (
     <img
       className="product-photo"
-      src={`/images/catalogue/${sno}.png`}
+      src={`/images/catalogue/${sno}.jpg`}
       alt={name}
       loading="lazy"
       onError={() => setFailed(true)}
