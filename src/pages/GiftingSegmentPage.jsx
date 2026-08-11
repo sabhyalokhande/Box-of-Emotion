@@ -7,12 +7,15 @@ export default function GiftingSegmentPage() {
   const { segment } = useParams();
   const seg = findSegment(segment);
   const [query, setQuery] = useState("");
+  const [activeType, setActiveType] = useState(null);
 
   const q = query.trim().toLowerCase();
   const groups = useMemo(() => {
     if (!seg) return [];
-    if (!q) return seg.productTypes;
-    return seg.productTypes
+    let types = seg.productTypes;
+    if (activeType) types = types.filter((g) => g.type === activeType);
+    if (!q) return types;
+    return types
       .map((g) => ({
         type: g.type,
         products: g.products.filter(
@@ -23,7 +26,7 @@ export default function GiftingSegmentPage() {
         ),
       }))
       .filter((g) => g.products.length > 0);
-  }, [seg, q]);
+  }, [seg, q, activeType]);
 
   if (!seg) {
     return (
@@ -69,6 +72,26 @@ export default function GiftingSegmentPage() {
           </div>
           <div className="segment-shown-count">{shown} products</div>
         </div>
+
+        <nav className="type-filter" aria-label="Filter by category">
+          <button
+            type="button"
+            className={`type-chip${activeType === null ? " is-active" : ""}`}
+            onClick={() => setActiveType(null)}
+          >
+            All <span className="type-chip-count">{seg.count}</span>
+          </button>
+          {seg.productTypes.map((g) => (
+            <button
+              type="button"
+              key={g.type}
+              className={`type-chip${activeType === g.type ? " is-active" : ""}`}
+              onClick={() => setActiveType((t) => (t === g.type ? null : g.type))}
+            >
+              {g.type} <span className="type-chip-count">{g.products.length}</span>
+            </button>
+          ))}
+        </nav>
 
         {groups.map((g) => (
           <div key={g.type} className="segment-type-block">

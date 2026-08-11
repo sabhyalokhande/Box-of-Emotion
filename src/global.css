@@ -716,6 +716,28 @@ p { margin: 0 0 1em; color: var(--ink-600); }
 }
 .segment-shown-count { font-size: .85rem; color: var(--ink-400); }
 
+.type-filter {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin: 20px 0 8px;
+}
+.type-chip {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: var(--ivory-100);
+  color: var(--ink-600);
+  font-size: .82rem; font-weight: 500;
+  border-radius: 999px; cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.type-chip:hover { border-color: var(--primary-900); color: var(--primary-900); }
+.type-chip.is-active { background: var(--primary-900); border-color: var(--primary-900); color: #fff; }
+.type-chip-count {
+  font-family: monospace; font-size: .72rem; color: var(--ink-400);
+}
+.type-chip:hover .type-chip-count { color: var(--primary-700); }
+.type-chip.is-active .type-chip-count { color: var(--accent-400); }
+
 .segment-type-block { margin-top: 40px; }
 .segment-type-head {
   font-family: var(--font-display); font-size: 1.4rem; color: var(--primary-900);
