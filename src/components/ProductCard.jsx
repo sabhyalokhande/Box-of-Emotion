@@ -3,8 +3,9 @@ import { BOE_CONFIG } from "../config.js";
 import ProductImage from "./ProductImage.jsx";
 
 export default function ProductCard({ product, categoryName }) {
+  const code = product.be || product.sku;
   const message = encodeURIComponent(
-    `Hi Box of Emotion, I'd like a quote for:\n${product.name} (Code ${product.sku})${
+    `Hi Box of Emotion, I'd like a quote for:\n${product.name} (Code ${code})${
       categoryName ? `\nCategory: ${categoryName}` : ""
     }`
   );
@@ -20,7 +21,8 @@ export default function ProductCard({ product, categoryName }) {
           {categoryName && <span className="product-tile-cat">{categoryName}</span>}
           <h4>{product.name}</h4>
           <div className="product-tile-meta">
-            Code {product.sku}
+            Code {code}
+            {product.be && <span className="product-tile-ref"> &middot; Ref {product.sku}</span>}
             {product.variants && <span className="product-tile-variant"> &middot; {product.variants}</span>}
           </div>
         </div>

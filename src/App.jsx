@@ -5,10 +5,12 @@ import WhatsAppFloat from "./components/WhatsAppFloat.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import CataloguePage from "./pages/CataloguePage.jsx";
 import ProductDetailPage from "./pages/ProductDetailPage.jsx";
+import GiftingPage from "./pages/GiftingPage.jsx";
+import GiftingSegmentPage from "./pages/GiftingSegmentPage.jsx";
 
 export default function App() {
   const { pathname } = useLocation();
-  const onCatalogue = pathname.startsWith("/catalogue");
+  const onCatalogue = pathname.startsWith("/catalogue") || pathname.startsWith("/gifting");
 
   return (
     <>
@@ -17,6 +19,8 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/catalogue" element={<CataloguePage />} />
         <Route path="/catalogue/product/:sno" element={<ProductDetailPage />} />
+        <Route path="/gifting" element={<GiftingPage />} />
+        <Route path="/gifting/:segment" element={<GiftingSegmentPage />} />
       </Routes>
       <Footer minimal={onCatalogue} />
       <WhatsAppFloat

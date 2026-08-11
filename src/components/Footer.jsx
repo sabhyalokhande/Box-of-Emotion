@@ -36,6 +36,7 @@ export default function Footer({ minimal = false }) {
             <h4>Explore</h4>
             <ul>
               <li><a href="#categories">Categories</a></li>
+              <li><Link to="/gifting">Gifting Segments</Link></li>
               <li><Link to="/catalogue">Full Catalogue</Link></li>
               <li><a href="#brands">Brands We Work With</a></li>
               <li><a href="#how-it-works">How It Works</a></li>

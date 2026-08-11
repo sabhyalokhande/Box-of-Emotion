@@ -25,6 +25,7 @@ export default function Header() {
           <a href={anchor("about")} onClick={close}>About</a>
           <a href={anchor("how-it-works")} onClick={close}>How It Works</a>
           <a href={anchor("brands")} onClick={close}>Brands</a>
+          <Link to="/gifting" onClick={close}>Gifting</Link>
           <Link to="/catalogue" onClick={close}>Catalogue</Link>
         </nav>
 

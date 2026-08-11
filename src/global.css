@@ -660,6 +660,71 @@ p { margin: 0 0 1em; color: var(--ink-600); }
 
 .cat-cta { text-align: left; padding: 68px 0 88px; border-top: 1px solid var(--line); }
 
+/* ---------- Gifting segments ---------- */
+.section-head .lede { font-size: 1.05rem; color: var(--ink-600); margin-top: 14px; max-width: 60ch; }
+.link-inline { color: var(--primary-700); text-decoration: underline; text-underline-offset: 2px; }
+.product-tile-ref { color: var(--ink-400); }
+
+.segment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+@media (max-width: 1000px) { .segment-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .segment-grid { grid-template-columns: 1fr; } }
+
+.segment-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  background: var(--ivory-100);
+  overflow: hidden;
+  transition: box-shadow .18s ease, transform .18s ease, border-color .18s ease;
+}
+.segment-card:hover {
+  border-color: var(--primary-900);
+  box-shadow: 0 14px 34px rgba(27, 51, 40, .12);
+  transform: translateY(-3px);
+}
+.segment-card-media { aspect-ratio: 4/3; background: var(--ivory-200); overflow: hidden; }
+.segment-card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.segment-card-body { display: flex; flex-direction: column; gap: 8px; padding: 20px; flex: 1; }
+.segment-card-count {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent-500); font-weight: 600;
+}
+.segment-card-body h3 { font-family: var(--font-display); font-size: 1.3rem; color: var(--primary-900); margin: 0; }
+.segment-card-body p { font-size: .9rem; color: var(--ink-600); line-height: 1.5; margin: 0; }
+.segment-card-body .link-arrow { margin-top: auto; padding-top: 6px; }
+
+.segment-hero {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: 40px;
+  align-items: center;
+  margin: 20px 0 40px;
+}
+.segment-hero-media { aspect-ratio: 4/3; overflow: hidden; background: var(--ivory-200); border: 1px solid var(--line); }
+.segment-hero-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.segment-hero-body .kicker { display: block; margin-bottom: 8px; }
+.segment-hero-body h1 { margin: 0 0 12px; }
+.segment-hero-body .lede { font-size: 1.05rem; color: var(--ink-600); max-width: 52ch; margin-bottom: 16px; }
+@media (max-width: 780px) { .segment-hero { grid-template-columns: 1fr; gap: 24px; } }
+
+.segment-controls {
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px;
+  padding: 20px 0; margin-bottom: 8px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+}
+.segment-shown-count { font-size: .85rem; color: var(--ink-400); }
+
+.segment-type-block { margin-top: 40px; }
+.segment-type-head {
+  font-family: var(--font-display); font-size: 1.4rem; color: var(--primary-900);
+  margin: 0 0 18px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+}
+.segment-type-head .count {
+  font-size: .8rem; color: var(--ink-400); text-transform: uppercase; letter-spacing: .08em; margin-left: 10px; font-family: var(--font-body);
+}
+
 /* ---------- utils ---------- */
 .mt-24 { margin-top: 24px; }
 .hidden { display: none !important; }

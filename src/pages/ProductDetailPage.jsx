@@ -28,8 +28,9 @@ export default function ProductDetailPage() {
   }
 
   const { product, category } = found;
+  const code = product.be || product.sku;
   const message = encodeURIComponent(
-    `Hi Box of Emotion, I'd like a quote for:\n${product.name} (Code ${product.sku})\nCategory: ${category.name}`
+    `Hi Box of Emotion, I'd like a quote for:\n${product.name} (Code ${code})\nCategory: ${category.name}`
   );
   const waHref = `https://wa.me/${BOE_CONFIG.whatsappNumber}?text=${message}`;
 
@@ -51,8 +52,14 @@ export default function ProductDetailPage() {
             <div className="def-list product-detail-facts">
               <div className="def-row">
                 <div className="term">Product code</div>
-                <div className="desc">{product.sku}</div>
+                <div className="desc">{code}</div>
               </div>
+              {product.be && (
+                <div className="def-row">
+                  <div className="term">Old ref code</div>
+                  <div className="desc">{product.sku}</div>
+                </div>
+              )}
               {product.variants && (
                 <div className="def-row">
                   <div className="term">Variants</div>
