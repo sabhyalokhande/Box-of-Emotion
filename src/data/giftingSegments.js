@@ -7,7 +7,7 @@ export const GIFTING_SEGMENTS = [
     "name": "Corporate Gifting",
     "shortName": "Corporate",
     "description": "Office & work-focused items: bags, tech accessories, diaries, drinkware, desk items - suited for employee onboarding, client gifting, and branded merchandise.",
-    "count": 1025,
+    "count": 942,
     "thumb": "/images/gifting/corporate.jpg",
     "productTypes": [
       {
@@ -653,27 +653,6 @@ export const GIFTING_SEGMENTS = [
             "variants": "Black (500ml)"
           },
           {
-            "sno": 112,
-            "be": "BE0112",
-            "sku": "1857",
-            "name": "BE - Sport Rubber Bottle",
-            "variants": "White (500ml)"
-          },
-          {
-            "sno": 113,
-            "be": "BE0113",
-            "sku": "1858",
-            "name": "BE - Borosil Glass Bottle",
-            "variants": "(1Ltr)"
-          },
-          {
-            "sno": 114,
-            "be": "BE0114",
-            "sku": "1859",
-            "name": "BE - Glass Bottle",
-            "variants": "(1Ltr)"
-          },
-          {
             "sno": 115,
             "be": "BE0115",
             "sku": "1860",
@@ -700,13 +679,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "1863",
             "name": "BE - Rubber Coated Wooden Cap Bottle",
             "variants": "White"
-          },
-          {
-            "sno": 119,
-            "be": "BE0119",
-            "sku": "1947",
-            "name": "BE - Steel Bottle",
-            "variants": "(1Ltr)"
           },
           {
             "sno": 120,
@@ -874,12 +846,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Glass Sports Bottle"
           },
           {
-            "sno": 145,
-            "be": "BE0145",
-            "sku": "1889",
-            "name": "BE - Glass 500ml Bottle"
-          },
-          {
             "sno": 146,
             "be": "BE0146",
             "sku": "1890",
@@ -1037,12 +1003,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0171",
             "sku": "1915",
             "name": "BE - Bluemen Big Bottle"
-          },
-          {
-            "sno": 172,
-            "be": "BE0172",
-            "sku": "1916",
-            "name": "BE - Bluemen Small Bottle"
           },
           {
             "sno": 173,
@@ -1229,48 +1189,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0203",
             "sku": "1946",
             "name": "BE - 2 in 1 Sport Bottle"
-          },
-          {
-            "sno": 204,
-            "be": "BE0204",
-            "sku": "1948",
-            "name": "BE - Flipper Bottle"
-          },
-          {
-            "sno": 205,
-            "be": "BE0205",
-            "sku": "1950",
-            "name": "BE - Spray Bottle"
-          },
-          {
-            "sno": 206,
-            "be": "BE0206",
-            "sku": "1951",
-            "name": "BE - 3 in 1 Bottle"
-          },
-          {
-            "sno": 207,
-            "be": "BE0207",
-            "sku": "1952",
-            "name": "BE - Motivational Bottle"
-          },
-          {
-            "sno": 208,
-            "be": "BE0208",
-            "sku": "1953",
-            "name": "BE - Flexible Silicon Bottle"
-          },
-          {
-            "sno": 209,
-            "be": "BE0209",
-            "sku": "1954",
-            "name": "BE - Football Bottle"
-          },
-          {
-            "sno": 210,
-            "be": "BE0210",
-            "sku": "A1954",
-            "name": "BE - Bottle"
           }
         ]
       },
@@ -1520,72 +1438,6 @@ export const GIFTING_SEGMENTS = [
         "type": "Cups",
         "products": [
           {
-            "sno": 282,
-            "be": "BE0282",
-            "sku": "901",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 283,
-            "be": "BE0283",
-            "sku": "902",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 284,
-            "be": "BE0284",
-            "sku": "903",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 285,
-            "be": "BE0285",
-            "sku": "904",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 286,
-            "be": "BE0286",
-            "sku": "905",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 287,
-            "be": "BE0287",
-            "sku": "906",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 288,
-            "be": "BE0288",
-            "sku": "A906",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 289,
-            "be": "BE0289",
-            "sku": "907",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 290,
-            "be": "BE0290",
-            "sku": "A907",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 291,
-            "be": "BE0291",
-            "sku": "908",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 292,
-            "be": "BE0292",
-            "sku": "A908",
-            "name": "BE - Cup"
-          },
-          {
             "sno": 293,
             "be": "BE0293",
             "sku": "909",
@@ -1724,12 +1576,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Cup"
           },
           {
-            "sno": 316,
-            "be": "BE0316",
-            "sku": "932",
-            "name": "BE - Cup"
-          },
-          {
             "sno": 317,
             "be": "BE0317",
             "sku": "933",
@@ -1802,13 +1648,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "944",
             "name": "BE - Coral Cup",
             "variants": "Blue"
-          },
-          {
-            "sno": 329,
-            "be": "BE0329",
-            "sku": "945",
-            "name": "BE - Coral Cup",
-            "variants": "Black"
           },
           {
             "sno": 330,
@@ -2245,27 +2084,6 @@ export const GIFTING_SEGMENTS = [
             "variants": "Black, Tan D"
           },
           {
-            "sno": 399,
-            "be": "BE0399",
-            "sku": "211",
-            "name": "BE-Wooden Diary -",
-            "variants": "D"
-          },
-          {
-            "sno": 400,
-            "be": "BE0400",
-            "sku": "212",
-            "name": "BE-Crock Diary-",
-            "variants": "D"
-          },
-          {
-            "sno": 401,
-            "be": "BE0401",
-            "sku": "213",
-            "name": "BE-Black Half Crock Diary -",
-            "variants": "D"
-          },
-          {
             "sno": 402,
             "be": "BE0402",
             "sku": "214",
@@ -2313,41 +2131,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "220",
             "name": "BE - Big Square Magnet Diary-",
             "variants": "Black Marble, Brown Marble, Red Marble, Yellow Marble, Green Marble D"
-          },
-          {
-            "sno": 409,
-            "be": "BE0409",
-            "sku": "221",
-            "name": "BE -N - CSM-Diary -",
-            "variants": "D"
-          },
-          {
-            "sno": 410,
-            "be": "BE0410",
-            "sku": "222",
-            "name": "BE -N - CRW-Diary -",
-            "variants": "D"
-          },
-          {
-            "sno": 411,
-            "be": "BE0411",
-            "sku": "223",
-            "name": "BE -N - CST-Diary -",
-            "variants": "D"
-          },
-          {
-            "sno": 412,
-            "be": "BE0412",
-            "sku": "224",
-            "name": "BE -N - CSP-Diary -",
-            "variants": "D"
-          },
-          {
-            "sno": 413,
-            "be": "BE0413",
-            "sku": "225",
-            "name": "BE -N - CWA-Diary -",
-            "variants": "D"
           }
         ]
       },
@@ -2367,12 +2150,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE Finger Eartunes 5"
           },
           {
-            "sno": 416,
-            "be": "BE0416",
-            "sku": "6154",
-            "name": "BE Universal Earbuds Chain Case"
-          },
-          {
             "sno": 417,
             "be": "BE0417",
             "sku": "6155",
@@ -2383,30 +2160,6 @@ export const GIFTING_SEGMENTS = [
       {
         "type": "Ecofriendly",
         "products": [
-          {
-            "sno": 418,
-            "be": "BE0418",
-            "sku": "1301",
-            "name": "BE - 01 - Ecofriendly Sticky"
-          },
-          {
-            "sno": 419,
-            "be": "BE0419",
-            "sku": "1302",
-            "name": "BE - 02 - Ecofriendly Sticky"
-          },
-          {
-            "sno": 420,
-            "be": "BE0420",
-            "sku": "1303",
-            "name": "BE - 05- Ecofriendly Sticky"
-          },
-          {
-            "sno": 421,
-            "be": "BE0421",
-            "sku": "1304",
-            "name": "BE - 13- Ecofriendly Sticky"
-          },
           {
             "sno": 422,
             "be": "BE0422",
@@ -3700,13 +3453,6 @@ export const GIFTING_SEGMENTS = [
             "variants": "PF"
           },
           {
-            "sno": 517,
-            "be": "BE0517",
-            "sku": "128",
-            "name": "BE Organ Pen Set",
-            "variants": "PO"
-          },
-          {
             "sno": 491,
             "be": "BE0491",
             "sku": "102",
@@ -3859,13 +3605,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "148",
             "name": "BE Perfume Couple Set",
             "variants": "PC"
-          },
-          {
-            "sno": 538,
-            "be": "BE0538",
-            "sku": "149",
-            "name": "BE Pen Keychain Set",
-            "variants": "PK"
           },
           {
             "sno": 539,
@@ -4285,12 +4024,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Keychain"
           },
           {
-            "sno": 745,
-            "be": "BE0745",
-            "sku": "1118",
-            "name": "BE - Keychain"
-          },
-          {
             "sno": 746,
             "be": "BE0746",
             "sku": "1119",
@@ -4495,18 +4228,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "1006",
             "name": "BE - Paper Folder",
             "variants": "Brown, Green, Blue, Tan"
-          },
-          {
-            "sno": 816,
-            "be": "BE0816",
-            "sku": "1007",
-            "name": "BE - 3 in 1 Set"
-          },
-          {
-            "sno": 817,
-            "be": "BE0817",
-            "sku": "1008",
-            "name": "BE - 2 in 1 Set"
           }
         ]
       },
@@ -4739,24 +4460,11 @@ export const GIFTING_SEGMENTS = [
         "type": "Mobile Stands",
         "products": [
           {
-            "sno": 852,
-            "be": "BE0852",
-            "sku": "1701",
-            "name": "BE - Mobile Stand with Card Holder",
-            "variants": "Black"
-          },
-          {
             "sno": 853,
             "be": "BE0853",
             "sku": "1702",
             "name": "BE - Mobile Stand without Card Holder",
             "variants": "Black"
-          },
-          {
-            "sno": 854,
-            "be": "BE0854",
-            "sku": "1703",
-            "name": "BE - Mobile Stand Hola"
           },
           {
             "sno": 855,
@@ -4785,13 +4493,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "1707",
             "name": "BE - Mobile Stand with Pen Stand",
             "variants": "Black"
-          },
-          {
-            "sno": 859,
-            "be": "BE0859",
-            "sku": "1708",
-            "name": "BE - Mobile Stand with Pen Stand",
-            "variants": "Silver"
           },
           {
             "sno": 860,
@@ -5040,28 +4741,10 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - 12- Pen Stand Doctor"
           },
           {
-            "sno": 898,
-            "be": "BE0898",
-            "sku": "1404",
-            "name": "BE - 13- Pen Stand Advovcate"
-          },
-          {
             "sno": 899,
             "be": "BE0899",
             "sku": "1405",
             "name": "BE - 15- Pen Stand"
-          },
-          {
-            "sno": 900,
-            "be": "BE0900",
-            "sku": "1406",
-            "name": "BE - 6054- Pen Stand"
-          },
-          {
-            "sno": 901,
-            "be": "BE0901",
-            "sku": "1407",
-            "name": "BE - 6081- Pen Stand"
           },
           {
             "sno": 902,
@@ -5082,34 +4765,10 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - 10- Pen Stand"
           },
           {
-            "sno": 905,
-            "be": "BE0905",
-            "sku": "1411",
-            "name": "BE - 6045- Pen Stand"
-          },
-          {
-            "sno": 906,
-            "be": "BE0906",
-            "sku": "1412",
-            "name": "BE - 6061- Pen Stand"
-          },
-          {
             "sno": 907,
             "be": "BE0907",
             "sku": "1413",
             "name": "BE - 2750- Pen Stand"
-          },
-          {
-            "sno": 908,
-            "be": "BE0908",
-            "sku": "1414",
-            "name": "BE - 6008- Pen Stand"
-          },
-          {
-            "sno": 909,
-            "be": "BE0909",
-            "sku": "1415",
-            "name": "BE - 6021- Pen Stand"
           },
           {
             "sno": 910,
@@ -5130,22 +4789,10 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - 5153- Pen Stand"
           },
           {
-            "sno": 913,
-            "be": "BE0913",
-            "sku": "1419",
-            "name": "BE - 2043- Pen Stand"
-          },
-          {
             "sno": 914,
             "be": "BE0914",
             "sku": "1420",
             "name": "BE - 5143 Pen Stand"
-          },
-          {
-            "sno": 915,
-            "be": "BE0915",
-            "sku": "1421",
-            "name": "BE - 2008- Pen Stand"
           },
           {
             "sno": 916,
@@ -5166,24 +4813,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - 5204- Pen Stand"
           },
           {
-            "sno": 919,
-            "be": "BE0919",
-            "sku": "1425",
-            "name": "BE - 1003- Pen Stand"
-          },
-          {
-            "sno": 920,
-            "be": "BE0920",
-            "sku": "1426",
-            "name": "BE - 2016- Pen Stand"
-          },
-          {
-            "sno": 921,
-            "be": "BE0921",
-            "sku": "1427",
-            "name": "BE - 2008 With Watch- Pen Stand"
-          },
-          {
             "sno": 922,
             "be": "BE0922",
             "sku": "1428",
@@ -5196,64 +4825,16 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Wooden Pen Stand"
           },
           {
-            "sno": 924,
-            "be": "BE0924",
-            "sku": "1429",
-            "name": "BE - PLT 2009 - Fish Design with Watch Pen Stand"
-          },
-          {
-            "sno": 925,
-            "be": "BE0925",
-            "sku": "1430",
-            "name": "BE - PLT 2029 - Fish Design Pen Stand"
-          },
-          {
             "sno": 926,
             "be": "BE0926",
             "sku": "1431",
             "name": "BE - PLT 2006 - Pen Stand"
           },
           {
-            "sno": 927,
-            "be": "BE0927",
-            "sku": "1432",
-            "name": "BE - PLT 2006 Antic Colour - Pen Stand"
-          },
-          {
-            "sno": 928,
-            "be": "BE0928",
-            "sku": "1433",
-            "name": "BE - PLT 2030- Ashoka Pen Stand"
-          },
-          {
-            "sno": 929,
-            "be": "BE0929",
-            "sku": "1434",
-            "name": "BE - PLT 2027 - Pen Stand"
-          },
-          {
             "sno": 930,
             "be": "BE0930",
             "sku": "1435",
             "name": "BE - PLT 2023 - Rupees Pen Stand"
-          },
-          {
-            "sno": 931,
-            "be": "BE0931",
-            "sku": "1436",
-            "name": "BE - PAP 1102 - Ashokstambh"
-          },
-          {
-            "sno": 932,
-            "be": "BE0932",
-            "sku": "1438",
-            "name": "BE - PAP 1106 - Ashokstambh"
-          },
-          {
-            "sno": 933,
-            "be": "BE0933",
-            "sku": "1439",
-            "name": "BE - PAP 1106 - Ashokstambh"
           },
           {
             "sno": 934,
@@ -5352,12 +4933,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - BTC 4343 Pen Stand"
           },
           {
-            "sno": 950,
-            "be": "BE0950",
-            "sku": "1456",
-            "name": "BE - M523 BTC4225 Pen Stand"
-          },
-          {
             "sno": 951,
             "be": "BE0951",
             "sku": "1457",
@@ -5400,28 +4975,10 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - M542 Pen Stand"
           },
           {
-            "sno": 958,
-            "be": "BE0958",
-            "sku": "1464",
-            "name": "BE - M540 Pen Stand"
-          },
-          {
             "sno": 959,
             "be": "BE0959",
             "sku": "1465",
             "name": "BE - BTC 4269 Pen Stand"
-          },
-          {
-            "sno": 960,
-            "be": "BE0960",
-            "sku": "1466",
-            "name": "BE - M 512, BTC 320- Pen Stand"
-          },
-          {
-            "sno": 961,
-            "be": "BE0961",
-            "sku": "1467",
-            "name": "BE - M311 Pen Stand"
           },
           {
             "sno": 962,
@@ -5451,12 +5008,6 @@ export const GIFTING_SEGMENTS = [
             "sno": 965,
             "be": "BE0965",
             "sku": "1601",
-            "name": "BE - Pendrive"
-          },
-          {
-            "sno": 966,
-            "be": "BE0966",
-            "sku": "1602",
             "name": "BE - Pendrive"
           },
           {
@@ -5490,12 +5041,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Pendrive"
           },
           {
-            "sno": 972,
-            "be": "BE0972",
-            "sku": "1608",
-            "name": "BE - Pendrive"
-          },
-          {
             "sno": 973,
             "be": "BE0973",
             "sku": "1609",
@@ -5520,24 +5065,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Pendrive"
           },
           {
-            "sno": 977,
-            "be": "BE0977",
-            "sku": "1613",
-            "name": "BE - Pendrive"
-          },
-          {
-            "sno": 978,
-            "be": "BE0978",
-            "sku": "1614",
-            "name": "BE - Pendrive"
-          },
-          {
-            "sno": 979,
-            "be": "BE0979",
-            "sku": "1615",
-            "name": "BE - Pendrive"
-          },
-          {
             "sno": 980,
             "be": "BE0980",
             "sku": "1616",
@@ -5553,12 +5080,6 @@ export const GIFTING_SEGMENTS = [
             "sno": 982,
             "be": "BE0982",
             "sku": "1618",
-            "name": "BE - Pendrive Box"
-          },
-          {
-            "sno": 983,
-            "be": "BE0983",
-            "sku": "1619",
             "name": "BE - Pendrive Box"
           },
           {
@@ -6109,12 +5630,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE Lining Pattern Pen"
           },
           {
-            "sno": 1074,
-            "be": "BE1074",
-            "sku": "2028",
-            "name": "BE Shine Gray Body magnetic cap Pen"
-          },
-          {
             "sno": 1075,
             "be": "BE1075",
             "sku": "2029",
@@ -6409,41 +5924,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "6244",
             "name": "BE Ship Desktop BTC",
             "variants": "STT"
-          },
-          {
-            "sno": 1124,
-            "be": "BE1124",
-            "sku": "6246",
-            "name": "BE Satyamev Jayte With clock M-BRW - 6245RC Satyamev Jayte Desktop M",
-            "variants": "BWB"
-          },
-          {
-            "sno": 1125,
-            "be": "BE1125",
-            "sku": "6247",
-            "name": "BE Lord Buddha Desktop BTC",
-            "variants": "TSWR"
-          },
-          {
-            "sno": 1126,
-            "be": "BE1126",
-            "sku": "6248",
-            "name": "BE Handshake Desktop BTC",
-            "variants": "TAII"
-          },
-          {
-            "sno": 1127,
-            "be": "BE1127",
-            "sku": "6258",
-            "name": "BE Cricket Desktop",
-            "variants": "IPS"
-          },
-          {
-            "sno": 1128,
-            "be": "BE1128",
-            "sku": "6259",
-            "name": "BE Ashoka Desktop BTC",
-            "variants": "TSTR"
           }
         ]
       },
@@ -6710,7 +6190,7 @@ export const GIFTING_SEGMENTS = [
     "name": "Seasonal & Festive Gifting",
     "shortName": "Seasonal & Festive",
     "description": "Occasion-based gifting for festivals and celebrations (Diwali, Raksha Bandhan, New Year, etc.): gift sets, jars, crockery, decor, festive hampers.",
-    "count": 462,
+    "count": 443,
     "thumb": "/images/gifting/seasonal-festive.jpg",
     "productTypes": [
       {
@@ -7078,27 +6558,6 @@ export const GIFTING_SEGMENTS = [
             "variants": "Black (500ml)"
           },
           {
-            "sno": 112,
-            "be": "BE0112",
-            "sku": "1857",
-            "name": "BE - Sport Rubber Bottle",
-            "variants": "White (500ml)"
-          },
-          {
-            "sno": 113,
-            "be": "BE0113",
-            "sku": "1858",
-            "name": "BE - Borosil Glass Bottle",
-            "variants": "(1Ltr)"
-          },
-          {
-            "sno": 114,
-            "be": "BE0114",
-            "sku": "1859",
-            "name": "BE - Glass Bottle",
-            "variants": "(1Ltr)"
-          },
-          {
             "sno": 115,
             "be": "BE0115",
             "sku": "1860",
@@ -7125,13 +6584,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "1863",
             "name": "BE - Rubber Coated Wooden Cap Bottle",
             "variants": "White"
-          },
-          {
-            "sno": 119,
-            "be": "BE0119",
-            "sku": "1947",
-            "name": "BE - Steel Bottle",
-            "variants": "(1Ltr)"
           },
           {
             "sno": 120,
@@ -7299,12 +6751,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Glass Sports Bottle"
           },
           {
-            "sno": 145,
-            "be": "BE0145",
-            "sku": "1889",
-            "name": "BE - Glass 500ml Bottle"
-          },
-          {
             "sno": 146,
             "be": "BE0146",
             "sku": "1890",
@@ -7462,12 +6908,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0171",
             "sku": "1915",
             "name": "BE - Bluemen Big Bottle"
-          },
-          {
-            "sno": 172,
-            "be": "BE0172",
-            "sku": "1916",
-            "name": "BE - Bluemen Small Bottle"
           },
           {
             "sno": 173,
@@ -7654,48 +7094,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0203",
             "sku": "1946",
             "name": "BE - 2 in 1 Sport Bottle"
-          },
-          {
-            "sno": 204,
-            "be": "BE0204",
-            "sku": "1948",
-            "name": "BE - Flipper Bottle"
-          },
-          {
-            "sno": 205,
-            "be": "BE0205",
-            "sku": "1950",
-            "name": "BE - Spray Bottle"
-          },
-          {
-            "sno": 206,
-            "be": "BE0206",
-            "sku": "1951",
-            "name": "BE - 3 in 1 Bottle"
-          },
-          {
-            "sno": 207,
-            "be": "BE0207",
-            "sku": "1952",
-            "name": "BE - Motivational Bottle"
-          },
-          {
-            "sno": 208,
-            "be": "BE0208",
-            "sku": "1953",
-            "name": "BE - Flexible Silicon Bottle"
-          },
-          {
-            "sno": 209,
-            "be": "BE0209",
-            "sku": "1954",
-            "name": "BE - Football Bottle"
-          },
-          {
-            "sno": 210,
-            "be": "BE0210",
-            "sku": "A1954",
-            "name": "BE - Bottle"
           }
         ]
       },
@@ -8613,13 +8011,6 @@ export const GIFTING_SEGMENTS = [
             "variants": "PF"
           },
           {
-            "sno": 517,
-            "be": "BE0517",
-            "sku": "128",
-            "name": "BE Organ Pen Set",
-            "variants": "PO"
-          },
-          {
             "sno": 491,
             "be": "BE0491",
             "sku": "102",
@@ -8772,13 +8163,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "148",
             "name": "BE Perfume Couple Set",
             "variants": "PC"
-          },
-          {
-            "sno": 538,
-            "be": "BE0538",
-            "sku": "149",
-            "name": "BE Pen Keychain Set",
-            "variants": "PK"
           },
           {
             "sno": 539,
@@ -9372,12 +8756,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE Casserole"
           },
           {
-            "sno": 260,
-            "be": "BE0260",
-            "sku": "6049",
-            "name": "BE Casserole Ceramic"
-          },
-          {
             "sno": 261,
             "be": "BE0261",
             "sku": "6050",
@@ -9477,12 +8855,6 @@ export const GIFTING_SEGMENTS = [
         "type": "Jars",
         "products": [
           {
-            "sno": 695,
-            "be": "BE0695",
-            "sku": "600ml 6001",
-            "name": "BE Yera Jars (Pack of 2)"
-          },
-          {
             "sno": 696,
             "be": "BE0696",
             "sku": "6002",
@@ -9500,12 +8872,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0698",
             "sku": "6004",
             "name": "BE Yera Jar 2 ltr"
-          },
-          {
-            "sno": 699,
-            "be": "BE0699",
-            "sku": "250ml 6005",
-            "name": "BE Yera Jars (Pack of 3)"
           },
           {
             "sno": 700,
@@ -9703,12 +9069,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE Diamond Lamp"
           },
           {
-            "sno": 798,
-            "be": "BE0798",
-            "sku": "6107",
-            "name": "BE Lamp with Mobile & Pen Stand"
-          },
-          {
             "sno": 799,
             "be": "BE0799",
             "sku": "6108",
@@ -9835,78 +9195,12 @@ export const GIFTING_SEGMENTS = [
     "name": "Kitchen & Home Gifting",
     "shortName": "Kitchen & Home",
     "description": "Kitchen and home items: cookware, storage, crockery, small appliances - suited for housewarming and festive home gifting.",
-    "count": 273,
+    "count": 250,
     "thumb": "/images/gifting/kitchen-home.jpg",
     "productTypes": [
       {
         "type": "Cups",
         "products": [
-          {
-            "sno": 282,
-            "be": "BE0282",
-            "sku": "901",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 283,
-            "be": "BE0283",
-            "sku": "902",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 284,
-            "be": "BE0284",
-            "sku": "903",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 285,
-            "be": "BE0285",
-            "sku": "904",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 286,
-            "be": "BE0286",
-            "sku": "905",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 287,
-            "be": "BE0287",
-            "sku": "906",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 288,
-            "be": "BE0288",
-            "sku": "A906",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 289,
-            "be": "BE0289",
-            "sku": "907",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 290,
-            "be": "BE0290",
-            "sku": "A907",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 291,
-            "be": "BE0291",
-            "sku": "908",
-            "name": "BE - Cup"
-          },
-          {
-            "sno": 292,
-            "be": "BE0292",
-            "sku": "A908",
-            "name": "BE - Cup"
-          },
           {
             "sno": 293,
             "be": "BE0293",
@@ -10046,12 +9340,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Cup"
           },
           {
-            "sno": 316,
-            "be": "BE0316",
-            "sku": "932",
-            "name": "BE - Cup"
-          },
-          {
             "sno": 317,
             "be": "BE0317",
             "sku": "933",
@@ -10124,13 +9412,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "944",
             "name": "BE - Coral Cup",
             "variants": "Blue"
-          },
-          {
-            "sno": 329,
-            "be": "BE0329",
-            "sku": "945",
-            "name": "BE - Coral Cup",
-            "variants": "Black"
           },
           {
             "sno": 330,
@@ -10708,41 +9989,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "6244",
             "name": "BE Ship Desktop BTC",
             "variants": "STT"
-          },
-          {
-            "sno": 1124,
-            "be": "BE1124",
-            "sku": "6246",
-            "name": "BE Satyamev Jayte With clock M-BRW - 6245RC Satyamev Jayte Desktop M",
-            "variants": "BWB"
-          },
-          {
-            "sno": 1125,
-            "be": "BE1125",
-            "sku": "6247",
-            "name": "BE Lord Buddha Desktop BTC",
-            "variants": "TSWR"
-          },
-          {
-            "sno": 1126,
-            "be": "BE1126",
-            "sku": "6248",
-            "name": "BE Handshake Desktop BTC",
-            "variants": "TAII"
-          },
-          {
-            "sno": 1127,
-            "be": "BE1127",
-            "sku": "6258",
-            "name": "BE Cricket Desktop",
-            "variants": "IPS"
-          },
-          {
-            "sno": 1128,
-            "be": "BE1128",
-            "sku": "6259",
-            "name": "BE Ashoka Desktop BTC",
-            "variants": "TSTR"
           }
         ]
       },
@@ -10973,12 +10219,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE Casserole"
           },
           {
-            "sno": 260,
-            "be": "BE0260",
-            "sku": "6049",
-            "name": "BE Casserole Ceramic"
-          },
-          {
             "sno": 261,
             "be": "BE0261",
             "sku": "6050",
@@ -11078,12 +10318,6 @@ export const GIFTING_SEGMENTS = [
         "type": "Jars",
         "products": [
           {
-            "sno": 695,
-            "be": "BE0695",
-            "sku": "600ml 6001",
-            "name": "BE Yera Jars (Pack of 2)"
-          },
-          {
             "sno": 696,
             "be": "BE0696",
             "sku": "6002",
@@ -11101,12 +10335,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0698",
             "sku": "6004",
             "name": "BE Yera Jar 2 ltr"
-          },
-          {
-            "sno": 699,
-            "be": "BE0699",
-            "sku": "250ml 6005",
-            "name": "BE Yera Jars (Pack of 3)"
           },
           {
             "sno": 700,
@@ -11208,12 +10436,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0797",
             "sku": "6106",
             "name": "BE Diamond Lamp"
-          },
-          {
-            "sno": 798,
-            "be": "BE0798",
-            "sku": "6107",
-            "name": "BE Lamp with Mobile & Pen Stand"
           },
           {
             "sno": 799,
@@ -11320,12 +10542,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0267",
             "sku": "6009",
             "name": "BE Chopper Big"
-          },
-          {
-            "sno": 268,
-            "be": "BE0268",
-            "sku": "6010",
-            "name": "BE Nima Electric Grinder"
           },
           {
             "sno": 269,
@@ -11633,7 +10849,7 @@ export const GIFTING_SEGMENTS = [
     "name": "Personal & Lifestyle Gifting",
     "shortName": "Personal & Lifestyle",
     "description": "Individual-use lifestyle items: purses, wallets, watches, leather goods, travel accessories - suited for personal or relationship gifting.",
-    "count": 148,
+    "count": 145,
     "thumb": "/images/gifting/personal-lifestyle.jpg",
     "productTypes": [
       {
@@ -11951,12 +11167,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Keychain"
           },
           {
-            "sno": 745,
-            "be": "BE0745",
-            "sku": "1118",
-            "name": "BE - Keychain"
-          },
-          {
             "sno": 746,
             "be": "BE0746",
             "sku": "1119",
@@ -12120,18 +11330,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "1006",
             "name": "BE - Paper Folder",
             "variants": "Brown, Green, Blue, Tan"
-          },
-          {
-            "sno": 816,
-            "be": "BE0816",
-            "sku": "1007",
-            "name": "BE - 3 in 1 Set"
-          },
-          {
-            "sno": 817,
-            "be": "BE0817",
-            "sku": "1008",
-            "name": "BE - 2 in 1 Set"
           }
         ]
       },
@@ -12615,7 +11813,7 @@ export const GIFTING_SEGMENTS = [
     "name": "Tech & Gadget Gifting",
     "shortName": "Tech & Gadget",
     "description": "Electronics and tech accessories: powerbanks, speakers, pendrives, stands - suited for tech-forward corporate or personal gifting.",
-    "count": 124,
+    "count": 114,
     "thumb": "/images/gifting/tech-gadget.jpg",
     "productTypes": [
       {
@@ -12632,12 +11830,6 @@ export const GIFTING_SEGMENTS = [
             "be": "BE0415",
             "sku": "6153",
             "name": "BE Finger Eartunes 5"
-          },
-          {
-            "sno": 416,
-            "be": "BE0416",
-            "sku": "6154",
-            "name": "BE Universal Earbuds Chain Case"
           },
           {
             "sno": 417,
@@ -12818,24 +12010,11 @@ export const GIFTING_SEGMENTS = [
         "type": "Mobile Stands",
         "products": [
           {
-            "sno": 852,
-            "be": "BE0852",
-            "sku": "1701",
-            "name": "BE - Mobile Stand with Card Holder",
-            "variants": "Black"
-          },
-          {
             "sno": 853,
             "be": "BE0853",
             "sku": "1702",
             "name": "BE - Mobile Stand without Card Holder",
             "variants": "Black"
-          },
-          {
-            "sno": 854,
-            "be": "BE0854",
-            "sku": "1703",
-            "name": "BE - Mobile Stand Hola"
           },
           {
             "sno": 855,
@@ -12864,13 +12043,6 @@ export const GIFTING_SEGMENTS = [
             "sku": "1707",
             "name": "BE - Mobile Stand with Pen Stand",
             "variants": "Black"
-          },
-          {
-            "sno": 859,
-            "be": "BE0859",
-            "sku": "1708",
-            "name": "BE - Mobile Stand with Pen Stand",
-            "variants": "Silver"
           },
           {
             "sno": 860,
@@ -12972,12 +12144,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Pendrive"
           },
           {
-            "sno": 966,
-            "be": "BE0966",
-            "sku": "1602",
-            "name": "BE - Pendrive"
-          },
-          {
             "sno": 967,
             "be": "BE0967",
             "sku": "1603",
@@ -13008,12 +12174,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Pendrive"
           },
           {
-            "sno": 972,
-            "be": "BE0972",
-            "sku": "1608",
-            "name": "BE - Pendrive"
-          },
-          {
             "sno": 973,
             "be": "BE0973",
             "sku": "1609",
@@ -13038,24 +12198,6 @@ export const GIFTING_SEGMENTS = [
             "name": "BE - Pendrive"
           },
           {
-            "sno": 977,
-            "be": "BE0977",
-            "sku": "1613",
-            "name": "BE - Pendrive"
-          },
-          {
-            "sno": 978,
-            "be": "BE0978",
-            "sku": "1614",
-            "name": "BE - Pendrive"
-          },
-          {
-            "sno": 979,
-            "be": "BE0979",
-            "sku": "1615",
-            "name": "BE - Pendrive"
-          },
-          {
             "sno": 980,
             "be": "BE0980",
             "sku": "1616",
@@ -13071,12 +12213,6 @@ export const GIFTING_SEGMENTS = [
             "sno": 982,
             "be": "BE0982",
             "sku": "1618",
-            "name": "BE - Pendrive Box"
-          },
-          {
-            "sno": 983,
-            "be": "BE0983",
-            "sku": "1619",
             "name": "BE - Pendrive Box"
           },
           {
@@ -13447,36 +12583,12 @@ export const GIFTING_SEGMENTS = [
     "name": "Eco-Friendly & Sustainable Gifting",
     "shortName": "Eco-Friendly & Sustainable",
     "description": "Sustainable and eco-conscious items: jute bags, eco-friendly stationery - suited for green/CSR-aligned gifting.",
-    "count": 21,
+    "count": 17,
     "thumb": "/images/gifting/eco-friendly.jpg",
     "productTypes": [
       {
         "type": "Ecofriendly",
         "products": [
-          {
-            "sno": 418,
-            "be": "BE0418",
-            "sku": "1301",
-            "name": "BE - 01 - Ecofriendly Sticky"
-          },
-          {
-            "sno": 419,
-            "be": "BE0419",
-            "sku": "1302",
-            "name": "BE - 02 - Ecofriendly Sticky"
-          },
-          {
-            "sno": 420,
-            "be": "BE0420",
-            "sku": "1303",
-            "name": "BE - 05- Ecofriendly Sticky"
-          },
-          {
-            "sno": 421,
-            "be": "BE0421",
-            "sku": "1304",
-            "name": "BE - 13- Ecofriendly Sticky"
-          },
           {
             "sno": 422,
             "be": "BE0422",
@@ -13599,4 +12711,4 @@ export function findSegment(slug) {
   return GIFTING_SEGMENTS.find((s) => s.slug === slug) || null;
 }
 
-export const GIFTING_TOTAL_PRODUCTS = 1179;
+export const GIFTING_TOTAL_PRODUCTS = 1091;
