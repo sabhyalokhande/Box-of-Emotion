@@ -20,7 +20,7 @@ export default function EnquiryForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const lines = [
-      "New corporate gifting enquiry — Box of Emotion",
+      "New corporate gifting enquiry — The Box of Emotions",
       `Name: ${form.name || "-"}`,
       `Company: ${form.company || "-"}`,
       `Phone: ${form.phone || "-"}`,

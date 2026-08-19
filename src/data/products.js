@@ -1,5 +1,5 @@
 /**
- * Box of Emotion — curated hamper showcase (photographed examples)
+ * The Box of Emotions — curated hamper showcase (photographed examples)
  * -----------------------------------------------------------------
  * This is the small set of real, photographed gift hampers shown on
  * the homepage (CategoryRows) — finished, assembled examples we've
@@ -207,7 +207,7 @@ export const CATALOGUE = [
   }
 ];
 
-// Corporate clients/brands Box of Emotion has gifted for.
+// Corporate clients/brands The Box of Emotions has gifted for.
 // `logo` is a filename inside public/images/brands/ — omit it for a plain text tile.
 export const BRANDS = [
   { name: "Malabar Gold & Diamonds", logo: "malabar-gold-diamonds.jpg" },

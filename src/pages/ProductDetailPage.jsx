@@ -30,7 +30,7 @@ export default function ProductDetailPage() {
   const { product, category } = found;
   const code = product.be || product.sku;
   const message = encodeURIComponent(
-    `Hi Box of Emotion, I'd like a quote for:\n${product.name} (Code ${code})\nCategory: ${category.name}`
+    `Hi The Box of Emotions, I'd like a quote for:\n${product.name} (Code ${code})\nCategory: ${category.name}`
   );
   const waHref = `https://wa.me/${BOE_CONFIG.whatsappNumber}?text=${message}`;
 

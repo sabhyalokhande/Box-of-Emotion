@@ -26,8 +26,8 @@ export default function App() {
       <WhatsAppFloat
         message={
           onCatalogue
-            ? "Hi Box of Emotion, I'm browsing your catalogue and would like a quote for a bulk order."
-            : "Hi Box of Emotion, I'd like to enquire about corporate gifting."
+            ? "Hi The Box of Emotions, I'm browsing your catalogue and would like a quote for a bulk order."
+            : "Hi The Box of Emotions, I'd like to enquire about corporate gifting."
         }
       />
     </>

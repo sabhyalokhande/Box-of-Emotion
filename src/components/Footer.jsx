@@ -9,7 +9,7 @@ export default function Footer({ minimal = false }) {
       <footer className="site-footer">
         <div className="wrap">
           <div className="footer-bottom" style={{ borderTop: "none", paddingTop: 0 }}>
-            <span>&copy; {year} Box of Emotion. All rights reserved.</span>
+            <span>&copy; {year} The Box of Emotions. All rights reserved.</span>
             <span>
               <Link to="/" style={{ color: "var(--accent-400)", fontWeight: 700 }}>
                 Back to homepage
@@ -28,7 +28,7 @@ export default function Footer({ minimal = false }) {
           <div>
             <span className="brand">
               <img className="brand-mark" src="/images/brand/tbe-logo-mark.png" alt="The Box of Emotions" />
-              Box of Emotion
+              The Box of Emotions
             </span>
             <p>Corporate &amp; client gifting, designed and delivered at scale — for B2B teams and B2C gifting alike.</p>
           </div>
@@ -61,7 +61,7 @@ export default function Footer({ minimal = false }) {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>&copy; {year} Box of Emotion. All rights reserved.</span>
+          <span>&copy; {year} The Box of Emotions. All rights reserved.</span>
           <span>Corporate Gifting &middot; B2B &amp; B2C &middot; MOQ 100+</span>
         </div>
       </div>

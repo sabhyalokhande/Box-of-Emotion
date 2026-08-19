@@ -1,5 +1,5 @@
 /**
- * Box of Emotion — business contact configuration
+ * The Box of Emotions — business contact configuration
  * -----------------------------------------------------------------
  * Replace the placeholder values below with real details. Everything
  * in the app (WhatsApp button, enquiry form, footer, QR code) reads

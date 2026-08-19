@@ -15,7 +15,7 @@ export default function Header() {
         <Link to="/" className="brand" onClick={close}>
           <img className="brand-mark" src="/images/brand/tbe-logo-mark.png" alt="The Box of Emotions" />
           <span>
-            Box of Emotion
+            The Box of Emotions
             <small>Corporate Gifting</small>
           </span>
         </Link>

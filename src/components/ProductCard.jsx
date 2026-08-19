@@ -5,7 +5,7 @@ import ProductImage from "./ProductImage.jsx";
 export default function ProductCard({ product, categoryName }) {
   const code = product.be || product.sku;
   const message = encodeURIComponent(
-    `Hi Box of Emotion, I'd like a quote for:\n${product.name} (Code ${code})${
+    `Hi The Box of Emotions, I'd like a quote for:\n${product.name} (Code ${code})${
       categoryName ? `\nCategory: ${categoryName}` : ""
     }`
   );

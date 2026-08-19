@@ -147,7 +147,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="section-head">
             <h2>Brands we&apos;ve gifted for</h2>
-            <p>A few of the corporates and institutions Box of Emotion has designed and delivered gifting programs for.</p>
+            <p>A few of the corporates and institutions The Box of Emotions has designed and delivered gifting programs for.</p>
           </div>
           <BrandLine />
         </div>

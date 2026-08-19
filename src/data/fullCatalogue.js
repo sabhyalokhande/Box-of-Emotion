@@ -1,5 +1,5 @@
 /**
- * Box of Emotion — full product index (BE catalogue).
+ * The Box of Emotions — full product index (BE catalogue).
  * Product-type categories preserved; each product carries the new BE code (be)
  * with the old numeric code kept as sku for reference.
  * NOTE: products without a catalogue image are currently excluded from display.

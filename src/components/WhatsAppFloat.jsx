@@ -1,7 +1,7 @@
 import { BOE_CONFIG } from "../config.js";
 
 export default function WhatsAppFloat({ message }) {
-  const text = encodeURIComponent(message || "Hi Box of Emotion, I'd like to enquire about corporate gifting.");
+  const text = encodeURIComponent(message || "Hi The Box of Emotions, I'd like to enquire about corporate gifting.");
   const href = `https://wa.me/${BOE_CONFIG.whatsappNumber}?text=${text}`;
 
   return (
