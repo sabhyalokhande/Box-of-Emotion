@@ -1,0 +1,9 @@
+# Serve real files/directories as-is; otherwise fall back to index.html
+# so React Router can handle client-side routes (e.g. /catalogue).
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
