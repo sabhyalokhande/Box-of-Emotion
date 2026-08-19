@@ -11,7 +11,7 @@ export const BOE_CONFIG = {
   siteUrl: "https://boxofemotion.in",
 
   // WhatsApp business number in international format, digits only (no + or spaces).
-  whatsappNumber: "919999999999",
+  whatsappNumber: "919727173497",
 
   // Enquiry email address (used for the "Email us" link and form fallback).
   email: "theboxofemotions4u@gmail.com",
