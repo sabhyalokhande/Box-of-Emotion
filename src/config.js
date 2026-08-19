@@ -14,10 +14,10 @@ export const BOE_CONFIG = {
   whatsappNumber: "919999999999",
 
   // Enquiry email address (used for the "Email us" link and form fallback).
-  email: "hello@boxofemotion.in",
+  email: "theboxofemotions4u@gmail.com",
 
   // Display phone number.
-  phone: "+91 99999 99999",
+  phone: "+91 97271 73497",
 
-  city: "Ahmedabad, Gujarat, India"
+  city: "Samrajya Tower, Memnagar, Ahmedabad, Gujarat 380052"
 };
