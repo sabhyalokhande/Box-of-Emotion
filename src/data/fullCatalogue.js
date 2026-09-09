@@ -1324,6 +1324,13 @@ export const FULL_CATALOGUE = [
     ],
   },
   {
+    slug: "playing-cards",
+    name: "Playing Cards",
+    products: [
+      { sno: 1180, name: "Custom Playing Card Deck", sku: "6232", be: "BE1180" },
+    ],
+  },
+  {
     slug: "powerbank-diary",
     name: "Powerbank Diary",
     products: [
@@ -1483,5 +1490,5 @@ export const FULL_CATALOGUE = [
   },
 ];
 
-export const FULL_CATALOGUE_TOTAL = 1091;
-export const FULL_CATALOGUE_CATEGORY_COUNT = 64;
+export const FULL_CATALOGUE_TOTAL = 1092;
+export const FULL_CATALOGUE_CATEGORY_COUNT = 65;

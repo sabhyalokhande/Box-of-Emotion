@@ -204,6 +204,28 @@ export const CATALOGUE = [
         image: "03.jpg"
       }
     ]
+  },
+  {
+    slug: "playing-cards",
+    name: "Branded Playing Cards",
+    tagline: "Custom-printed card decks that keep your brand in hand long after the gift.",
+    products: [
+      {
+        name: "Custom Playing Card Deck",
+        desc: "Premium plastic-finish playing cards with your logo on every card back, packed in a branded box.",
+        image: "01.jpg"
+      },
+      {
+        name: "Branded Tuck Box Deck",
+        desc: "Full 52-card deck in a custom 'With Best Compliments' tuck box — built for bulk festive and client gifting.",
+        image: "02.jpg"
+      },
+      {
+        name: "Bulk Playing Card Order",
+        desc: "Cartons of individually boxed branded decks, ready for pan-India dispatch at scale.",
+        image: "03.jpg"
+      }
+    ]
   }
 ];
 
